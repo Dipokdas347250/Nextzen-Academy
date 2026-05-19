@@ -4,7 +4,10 @@ import Banner from '../../components/home_page/Banner'
 const Home = () => {
   return (
     <>
+    <main>
+
     <Banner/>
+    </main>
     </>
   )
 }

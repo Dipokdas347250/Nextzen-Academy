@@ -14,19 +14,19 @@ const Navberdata = {
         },
         {
             id: 3,
-            title: "Shop",
-            url: "/shop"
+            title: "Courses",
+            url: "/courses"
 
         },
         {
             id: 4,
-            title: "Pages",
-            url: "/pages"
+            title: "Gallery",
+            url: "/gallery"
         },
         {
             id: 5,
-            title: "Blog",
-            url: "/blog"
+            title: "Testimonials",
+            url: "/testimonials"
 
         },
         {
