@@ -7,7 +7,7 @@ import { IoCheckmarkDoneSharp } from "react-icons/io5";
 const Banner = () => {
   return (
     <>
-      <section className='py-25 bg-[#D9FAEB]/50 relative'>
+      <section className='pb-25 pt-40 bg-[#D9FAEB]/50 relative'>
        <div className=" absolute bottom-0 left-200 w-75 h-75 bg-secondary/10 rounded-full blur-3xl "></div>
             <div className=" absolute bottom-0 right-0 w-75 h-75 bg-tertiary/10 rounded-full blur-3xl "></div>
         <Contaoner>

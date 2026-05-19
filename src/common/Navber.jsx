@@ -8,7 +8,7 @@ import { FiMessageCircle } from "react-icons/fi";
 
 const Navber = () => {
   return (
-   <nav className='py-4 bg-[#F7FBFF]'>
+   <nav className='py-4 bg-[#F7FBFF] fixed w-full z-50 shadow-md'>
     <Contaoner>
         <div className="flex items-center justify-between ">
                 <Link to="/">
