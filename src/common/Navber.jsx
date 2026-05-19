@@ -14,7 +14,7 @@ const Navber = () => {
                 <Link to="/">
             <div className="flex items-center gap-2">
                     <img src={logo} alt="Logo" width={50} height={50 }  />
-                    <h2 className='text-xl font-bold transition-colors  bg-gradient-to-r from-blue-600 to-teal-600 bg-clip-text text-transparent text-black drop-shadow-lg'>Nextzen Academy</h2>
+                    <h2 className='text-xl font-bold font-nunito transition-colors  bg-linear-to-r from-blue-600 to-teal-600 bg-clip-text text-transparent drop-shadow-lg'>Nextzen Academy</h2>
             </div>
                 </Link>
             <div className="flex items-center gap-10">

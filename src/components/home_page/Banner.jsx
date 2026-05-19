@@ -14,7 +14,7 @@ const Banner = () => {
           <div className="flex gap-20  ">
            
             <div className="w-1/2">
-              <div className="py-3 px-4 bg-[#D9FAEB] inline-block rounded-full border border-green-500 ">
+              <div className="button ">
 
                 <h2 className='text-[16px] text-[tertiary] font-normal font-inter '>Premium Technical Training Institute</h2>
               </div>

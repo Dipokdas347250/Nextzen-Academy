@@ -27,3 +27,7 @@
   --font-nunito: "Nunito", sans-serif;
   --font-inter: "Inter", monospace;
 }
+
+.button{
+  @apply py-3 px-4 bg-[#D9FAEB] inline-block rounded-full border border-green-500
+}
