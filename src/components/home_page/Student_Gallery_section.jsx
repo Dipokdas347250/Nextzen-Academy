@@ -65,15 +65,15 @@ const Student_Gallery_section = () => {
                                 duration: 0.5,
                                 delay: index * 0.1
                             }} className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300">
-                                <div className="aspect-[4/3] overflow-hidden bg-gray-100">
+                                <div className="aspect-4/3 overflow-hidden bg-gray-100">
                                     <img src={image.url} alt={image.title} className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500" />
                                 </div>
 
                                 {/* Overlay */}
-                                <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
+                                <div className="absolute inset-0 bg-linear-to-t from-black/70 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
                                     <div className="p-6 w-full transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
-                                        <h3 className="text-white font-bold text-lg">{image.title}</h3>
-                                        <div className="w-12 h-1 bg-gradient-to-r from-blue-500 to-teal-500 mt-2 rounded-full" />
+                                        <h3 className="text-white font-bold font-inter text-lg">{image.title}</h3>
+                                        <div className="w-12 h-1 bg-linear-to-r from-blue-500 to-teal-500 mt-2 rounded-full" />
                                     </div>
                                 </div>
 
@@ -95,7 +95,7 @@ const Student_Gallery_section = () => {
                             duration: 0.6,
                             delay: 0.3
                         }} className="text-center mt-12">
-                            <button className="px-8 py-4 bg-gradient-to-r from-blue-600 to-teal-600 text-white font-semibold rounded-full shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300">
+                            <button className="px-8 py-4 bg-linear-to-r from-blue-600 to-teal-600 text-white font-semibold rounded-full shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300">
                                 View More Projects
                             </button>
                         </motion.div>

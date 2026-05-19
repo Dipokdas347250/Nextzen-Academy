@@ -121,15 +121,15 @@ export function StatisticsSection() {
                 {/* Glass Card */}
                 <div className="relative bg-white/10 backdrop-blur-md rounded-2xl p-8 border border-white/20 hover:bg-white/15 transition-all duration-300 hover:scale-105">
                   {/* Gradient Border Effect */}
-                  <div className="absolute inset-0 rounded-2xl bg-gradient-to-br from-white/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none" />
+                  <div className="absolute inset-0 rounded-2xl bg-linear-to-br from-white/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none" />
                   
                   {/* Icon/Decoration */}
-                  <div className={`w-12 h-12 rounded-xl bg-gradient-to-br ${stat.color} mb-6 flex items-center justify-center shadow-lg`}>
+                  <div className={`w-12 h-12 rounded-xl bg-linear-to-br ${stat.color} mb-6 flex items-center justify-center shadow-lg`}>
                     <div className="w-6 h-6 bg-white/30 rounded-full" />
                   </div>
 
                   {/* Number */}
-                  <div className="text-5xl font-bold text-white mb-2">
+                  <div className="text-5xl font-bold font-inter text-white mb-2">
                     {isVisible ? <Counter end={stat.value} suffix={stat.suffix} /> : `0${stat.suffix}`}
                   </div>
 
@@ -145,7 +145,7 @@ export function StatisticsSection() {
                 </div>
 
                 {/* Shadow Effect */}
-                <div className={`absolute inset-0 bg-gradient-to-br ${stat.color} rounded-2xl blur-xl opacity-20 group-hover:opacity-30 transition-opacity duration-300 -z-10`} />
+                <div className={`absolute inset-0 bg-linear-to-br ${stat.color} rounded-2xl blur-xl opacity-20 group-hover:opacity-30 transition-opacity duration-300 -z-10`} />
               </div>
             </motion.div>)}
         </div>
@@ -163,10 +163,10 @@ export function StatisticsSection() {
         duration: 0.6,
         delay: 0.4
       }} className="text-center mt-16">
-          <p className="text-white/90 text-lg mb-6">
+          <p className="text-white/90 text-lg mb-6 font-inter">
             Join hundreds of successful graduates who transformed their careers
           </p>
-          <button className="px-8 py-4 bg-white text-teal-600 font-semibold rounded-full shadow-lg hover:shadow-2xl hover:scale-105 transition-all duration-300">
+          <button className="px-8 py-4 bg-white text-teal-600 font-semibold font-inter rounded-full shadow-lg hover:shadow-2xl hover:scale-105 transition-all duration-300">
             Start Your Journey Today
           </button>
         </motion.div>

@@ -3,14 +3,16 @@ import React from "react";
 import { IoCall } from "react-icons/io5";
 import { IoLogoWhatsapp } from "react-icons/io";
 import { FaLocationDot } from "react-icons/fa6";
+import Container from "../../container/Container";
 
 
 
 
 const ContactForm = () => {
   return (
-    <section className="py-20 bg-gradient-to-b from-[#F5FAFD] to-white">
-      <div className="max-w-7xl mx-auto px-4">
+    <section className="py-20 bg-linear-to-b from-[#F5FAFD] to-white">
+      <Container>
+        <div className="max-w-7xl mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-10 items-center">
 
           {/* Left Side */}
@@ -104,7 +106,7 @@ const ContactForm = () => {
 
               <button
                 type="submit"
-                className="w-full bg-gradient-to-r from-[#0B4F7B] to-[#0397BE] hover:scale-[1.02] transition-all duration-300 text-white font-semibold py-4 rounded-xl"
+                className="w-full bg-linear-to-r from-[#0B4F7B] to-[#0397BE] hover:scale-[1.02] transition-all duration-300 text-white font-semibold py-4 rounded-xl"
               >
                 Send Message →
               </button>
@@ -113,6 +115,7 @@ const ContactForm = () => {
 
         </div>
       </div>
+      </Container>
     </section>
   );
 };

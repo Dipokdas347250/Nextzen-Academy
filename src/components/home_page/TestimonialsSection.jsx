@@ -44,7 +44,7 @@ const testimonials = [{
   text: 'From theory to practice, everything was perfect! The small batch sizes ensured personalized attention, and the modern equipment made learning enjoyable and effective.'
 }];
 export function TestimonialsSection() {
-  return <section className="py-20 bg-gradient-to-br from-gray-50 to-blue-50 relative overflow-hidden">
+  return <section className="py-20 bg-linear-to-br from-gray-50 to-blue-50 relative overflow-hidden">
     {/* Background Pattern */}
     <div className="absolute inset-0 opacity-5">
       <div className="absolute inset-0" style={{
@@ -94,7 +94,7 @@ export function TestimonialsSection() {
             <div className="p-8 flex flex-col h-full">
               {/* Quote Icon */}
               <div className="mb-4">
-                <div className="w-12 h-12 rounded-full bg-gradient-to-br from-blue-500 to-teal-500 flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform duration-300">
+                <div className="w-12 h-12 rounded-full bg-linear-to-br from-blue-500 to-teal-500 flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform duration-300">
                   <Quote className="w-6 h-6 text-white" />
                 </div>
               </div>
@@ -116,9 +116,9 @@ export function TestimonialsSection() {
                   <div className="absolute -bottom-1 -right-1 w-5 h-5 bg-green-500 rounded-full border-2 border-white" />
                 </div>
                 <div>
-                  <div className="font-bold text-gray-900">{testimonial.name}</div>
-                  <div className="text-sm text-gray-600">{testimonial.role}</div>
-                  <div className="text-xs text-teal-600 font-medium">{testimonial.company}</div>
+                  <div className="font-bold font-inter text-gray-900">{testimonial.name}</div>
+                  <div className="text-sm font-inter text-gray-600">{testimonial.role}</div>
+                  <div className="text-xs font-inter text-teal-600 font-medium">{testimonial.company}</div>
                 </div>
               </div>
             </div>
@@ -142,7 +142,7 @@ export function TestimonialsSection() {
         <p className="text-gray-700 text-lg mb-6">
           Ready to write your own success story?
         </p>
-        <button className="px-8 py-4 bg-gradient-to-r from-blue-600 to-teal-600 text-white font-semibold rounded-full shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300">
+        <button className="px-8 py-4 bg-linear-to-r from-blue-600 to-teal-600 text-white font-semibold font-inter rounded-full shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300">
           Join Our Next Batch
         </button>
       </motion.div>
