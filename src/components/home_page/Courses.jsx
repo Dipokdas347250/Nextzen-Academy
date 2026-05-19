@@ -1,5 +1,5 @@
 import React from 'react'
-import Contaoner from '../../container/Contaoner'
+import Contaoner from '../../container/Container'
 import { FiSun } from "react-icons/fi";
 import { GoZap } from "react-icons/go";
 import { FaBatteryEmpty } from "react-icons/fa";

@@ -1,5 +1,5 @@
 import React from 'react'
-import Contaoner from '../../container/Contaoner'
+import Contaoner from '../../container/Container'
 import hero from "../../assets/images/hero.jpg"
 import { IoCheckmarkDoneSharp } from "react-icons/io5";
 

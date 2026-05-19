@@ -1,5 +1,5 @@
 import React from 'react'
-import Contaoner from '../container/Contaoner'
+import Contaoner from '../container/Container'
 import logo from '../assets/images/logo.png'
 import Navberdata from '../data/navdata'
 import { Link } from 'react-router'
