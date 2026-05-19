@@ -54,7 +54,7 @@ const stats = [{
 }];
 export function StatisticsSection() {
   const [isVisible, setIsVisible] = useState(false);
-  return <section className="py-20 bg-gradient-to-br from-blue-600 via-teal-600 to-green-600 relative overflow-hidden">
+  return <section className="py-20 bg-linear-to-br from-blue-600 via-teal-600 to-green-600 relative overflow-hidden">
       {/* Animated Background */}
       <div className="absolute inset-0 overflow-hidden">
         <motion.div animate={{

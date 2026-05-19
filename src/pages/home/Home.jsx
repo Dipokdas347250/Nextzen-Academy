@@ -3,8 +3,10 @@ import Banner from '../../components/home_page/Banner'
 import Courses from '../../components/home_page/Courses'
 import Why_Choose from '../../components/home_page/Why_Choose'
 import Student_Gallery_section from '../../components/home_page/Student_Gallery_section'
-import { StatisticsSection } from '../../components/home_page/StatisticsSection'
-import { TestimonialsSection } from '../../components/home_page/TestimonialsSection'
+import  {StatisticsSection}  from '../../components/home_page/StatisticsSection'
+import  {TestimonialsSection}  from '../../components/home_page/TestimonialsSection'
+import ContactForm from '../../components/home_page/Contact_us'
+
 
 const Home = () => {
   return (
@@ -17,6 +19,8 @@ const Home = () => {
     <Student_Gallery_section/>
     <StatisticsSection/>
     <TestimonialsSection/>
+    <ContactForm/>
+    
     </main>
     </>
   )
