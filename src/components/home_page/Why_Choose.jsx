@@ -37,15 +37,15 @@ const Why_Choose = () => {
                     <div className="absolute top-20 left-0 w-72 h-72 bg-blue-200 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob" />
                     <div className="absolute top-40 right-0 w-72 h-72 bg-teal-200 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-2000" />
                     <div className="absolute -bottom-8 left-1/2 w-72 h-72 bg-green-200 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-4000" />
-                     <div className="mx-auto text-center">
-                                    <div className="py-3 px-4 bg-[#D9FAEB]  rounded-full border border-green-500  inline-block">
+                    <div className="mx-auto text-center">
+                        <div className="py-3 px-4 bg-[#D9FAEB]  rounded-full border border-green-500  inline-block">
 
-                                        <h2 className='text-[16px] text-[tertiary] font-normal font-inter '>What Makes Us Different</h2>
+                            <h2 className='text-[16px] text-[tertiary] font-normal font-inter '>What Makes Us Different</h2>
 
-                                    </div>
-                                    <h2 className='text-[72px] font-nunito font-bold transition-colors  bg-linear-to-r from-primary to-tertiary bg-clip-text text-transparent drop-shadow-lg'> <span className='text-black'>Why Choose</span> Nextzen Academy?</h2>
-                                    <p className='text-[18px] text-[secondary] font-normal font-inter max-w-2xl mx-auto '>Industry-leading training programs designed to equip you with practical skills and knowledge for a successful career</p>
-                                </div>
+                        </div>
+                        <h2 className='text-[72px] font-nunito font-bold transition-colors  bg-linear-to-r from-primary to-tertiary bg-clip-text text-transparent drop-shadow-lg'> <span className='text-black'>Why Choose</span> Nextzen Academy?</h2>
+                        <p className='text-[18px] text-[secondary] font-normal font-inter max-w-2xl mx-auto '>Industry-leading training programs designed to equip you with practical skills and knowledge for a successful career</p>
+                    </div>
 
                     <div className=" mx-auto px-4 sm:px-6 lg:px-8 relative z-10 mt-15">
                         <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -61,7 +61,7 @@ const Why_Choose = () => {
                             }} transition={{
                                 duration: 0.6
                             }}>
-                               
+
 
                                 {/* Feature Cards */}
                                 <div className="space-y-4">
@@ -81,8 +81,8 @@ const Why_Choose = () => {
                                         }}>
                                             <div className="border-0 shadow-md hover:shadow-xl transition-all duration-300 bg-white/80 backdrop-blur-sm">
                                                 <div className="p-6 flex items-start gap-4">
-                                                    <div className="flex-shrink-0">
-                                                        <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-blue-500 to-teal-500 flex items-center justify-center shadow-lg">
+                                                    <div className="shrink-0">
+                                                        <div className="w-12 h-12 rounded-xl bg-linear-to-br from-blue-500 to-teal-500 flex items-center justify-center shadow-lg">
                                                             <Icon className="w-6 h-6 text-white" />
                                                         </div>
                                                     </div>
@@ -113,7 +113,7 @@ const Why_Choose = () => {
                                     {/* Main Image */}
                                     <div className="rounded-3xl overflow-hidden shadow-2xl">
                                         <img src="https://images.unsplash.com/photo-1640163561331-1b68a6474957?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzdHVkZW50cyUyMGxlYXJuaW5nJTIwdGVjaG5pY2FsJTIwdHJhaW5pbmd8ZW58MXx8fHwxNzc5MjAwNzIwfDA&ixlib=rb-4.1.0&q=80&w=1080" alt="Students Learning" className="w-full h-auto object-cover" />
-                                        <div className="absolute inset-0 bg-gradient-to-tr from-blue-600/30 to-transparent" />
+                                        <div className="absolute inset-0 bg-linear-to-tr from-blue-600/30 to-transparent" />
                                     </div>
 
                                     {/* Floating Stats Cards */}
@@ -130,7 +130,7 @@ const Why_Choose = () => {
                                         delay: 0.3
                                     }} className="absolute -top-6 -right-6 bg-white rounded-2xl shadow-2xl p-6 border border-gray-100">
                                         <div className="text-center">
-                                            <div className="text-3xl font-bold bg-gradient-to-r from-blue-600 to-teal-600 bg-clip-text text-transparent mb-1">
+                                            <div className="text-3xl font-bold bg-linear-to-r from-blue-600 to-teal-600 bg-clip-text text-transparent mb-1">
                                                 500+
                                             </div>
                                             <div className="text-sm text-gray-600 font-medium">Students Trained</div>
@@ -148,7 +148,7 @@ const Why_Choose = () => {
                                     }} transition={{
                                         duration: 0.6,
                                         delay: 0.5
-                                    }} className="absolute -bottom-6 -left-6 bg-gradient-to-br from-blue-500 to-teal-500 rounded-2xl shadow-2xl p-6 text-white">
+                                    }} className="absolute -bottom-6 -left-6 bg-linear-to-br from-blue-500 to-teal-500 rounded-2xl shadow-2xl p-6 text-white">
                                         <div className="text-center">
                                             <div className="text-3xl font-bold mb-1">98%</div>
                                             <div className="text-sm font-medium opacity-90">Success Rate</div>
@@ -156,13 +156,13 @@ const Why_Choose = () => {
                                     </motion.div>
 
                                     {/* Decorative Element */}
-                                    <div className="absolute top-1/2 right-0 transform translate-x-1/2 -translate-y-1/2 w-32 h-32 bg-gradient-to-br from-teal-400 to-green-400 rounded-full blur-3xl opacity-30" />
+                                    <div className="absolute top-1/2 right-0 transform translate-x-1/2 -translate-y-1/2 w-32 h-32 bg-linear-to-br from-teal-400 to-green-400 rounded-full blur-3xl opacity-30" />
                                 </div>
                             </motion.div>
                         </div>
                     </div>
                 </Contaoner>
-            </section>;
+            </section>
 
         </>
     )
