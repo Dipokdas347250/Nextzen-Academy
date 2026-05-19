@@ -1,8 +1,15 @@
 import React from 'react'
+import Contaoner from '../container/Contaoner'
 
 const Navber = () => {
   return (
-    <div>Navber</div>
+   <nav>
+    <Contaoner>
+         <div>
+        <h3 className='font-nunito text-[30px] font-bold text-primary'>Dipok</h3>
+    </div>
+    </Contaoner>
+   </nav>
   )
 }
 

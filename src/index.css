@@ -1,1 +1,29 @@
 @import "tailwindcss";
+
+
+
+
+
+
+
+:root {
+  --primary: #0397BE;
+  --secondary: #6DFA18;
+  --tertiary: #0B4F7B;
+  --color-primary: var(--primary);
+  --color-secondary: var(--secondary);
+  --color-tertiary: var(--tertiary);
+  --font-nunito: "Nunito", sans-serif;
+  --font-inter: "Inter", monospace;
+
+}
+
+@theme inline {
+  --color-primary: var(--color-primary);
+  --color-secondary: var(--color-secondary);
+  --color-tertiary: var(--color-tertiary);
+}
+@theme {
+  --font-nunito: "Nunito", sans-serif;
+  --font-inter: "Inter", monospace;
+}
