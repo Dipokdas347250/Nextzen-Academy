@@ -43,7 +43,7 @@ const Why_Choose = () => {
                             <h2 className='text-[16px] text-[tertiary] font-normal font-inter '>What Makes Us Different</h2>
 
                         </div>
-                        <h2 className='text-[72px] font-nunito font-bold transition-colors  bg-linear-to-r from-primary to-tertiary bg-clip-text text-transparent drop-shadow-lg'> <span className='text-black'>Why Choose</span> Nextzen Academy?</h2>
+                        <h2 className='lg:text-[72px] text-[36px] font-nunito font-bold transition-colors  bg-linear-to-r from-primary to-tertiary bg-clip-text text-transparent drop-shadow-lg'> <span className='text-black'>Why Choose</span> Nextzen Academy?</h2>
                         <p className='text-[18px] text-[secondary] font-normal font-inter max-w-2xl mx-auto '>Industry-leading training programs designed to equip you with practical skills and knowledge for a successful career</p>
                     </div>
 
@@ -128,9 +128,9 @@ const Why_Choose = () => {
                                     }} transition={{
                                         duration: 0.6,
                                         delay: 0.3
-                                    }} className="absolute -top-6 -right-6 bg-white rounded-2xl shadow-2xl p-6 border border-gray-100">
+                                    }} className="absolute -top-6 -right-6 bg-white rounded-2xl shadow-2xl lg:p-6 p-3 border border-gray-100">
                                         <div className="text-center">
-                                            <div className="text-3xl font-bold bg-linear-to-r from-blue-600 to-teal-600 bg-clip-text text-transparent mb-1">
+                                            <div className="lg:text-3xl text-xl font-bold bg-linear-to-r from-blue-600 to-teal-600 bg-clip-text text-transparent mb-1">
                                                 500+
                                             </div>
                                             <div className="text-sm text-gray-600 font-medium">Students Trained</div>
@@ -148,9 +148,9 @@ const Why_Choose = () => {
                                     }} transition={{
                                         duration: 0.6,
                                         delay: 0.5
-                                    }} className="absolute -bottom-6 -left-6 bg-linear-to-br from-blue-500 to-teal-500 rounded-2xl shadow-2xl p-6 text-white">
+                                    }} className="absolute -bottom-6 -left-6 bg-linear-to-br from-blue-500 to-teal-500 rounded-2xl shadow-2xl lg:p-6 p-3 text-white">
                                         <div className="text-center">
-                                            <div className="text-3xl font-bold mb-1">98%</div>
+                                            <div className="lg:text-3xl text-xl font-bold mb-1">98%</div>
                                             <div className="text-sm font-medium opacity-90">Success Rate</div>
                                         </div>
                                     </motion.div>

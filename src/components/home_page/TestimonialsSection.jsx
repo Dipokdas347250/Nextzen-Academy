@@ -71,7 +71,7 @@ export function TestimonialsSection() {
             <h2 className='text-[16px] text-[tertiary] font-normal font-inter '>What Our Students Say</h2>
 
           </div>
-          <h2 className='text-[72px] font-nunito font-bold transition-colors  bg-linear-to-r from-primary to-tertiary bg-clip-text text-transparent drop-shadow-lg'> <span className='text-black'>Success  </span> Stories</h2>
+          <h2 className='lg:text-[72px] text-[40px] font-nunito font-bold transition-colors  bg-linear-to-r from-primary to-tertiary bg-clip-text text-transparent drop-shadow-lg'> <span className='text-black'>Success  </span> Stories</h2>
           <p className='text-[18px] text-[secondary] font-normal font-inter max-w-2xl mx-auto '>Don't just take our word for it. Hear from our graduates who have successfully launched their careers</p>
         </div>
       </motion.div>

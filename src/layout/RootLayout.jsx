@@ -6,9 +6,11 @@ import  Footer  from '../common/Footer'
 const RootLayout = () => {
   return (
     <>
-    <Navber/>
+   <div className=" overflow-hidden">
+     <Navber/>
     <Outlet/>
     <Footer/>
+   </div>
     </>
   )
 }

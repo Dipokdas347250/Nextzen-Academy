@@ -46,7 +46,7 @@ const Student_Gallery_section = () => {
                                     <h2 className='text-[16px] text-[tertiary] font-normal font-inter '>See Our Students in Action</h2>
 
                                 </div>
-                                <h2 className='text-[72px] font-nunito font-bold transition-colors  bg-linear-to-r from-primary to-tertiary bg-clip-text text-transparent drop-shadow-lg'> <span className='text-black'>Student </span> Gallery</h2>
+                                <h2 className='lg:text-[72px] text-[40px] font-nunito font-bold transition-colors  bg-linear-to-r from-primary to-tertiary bg-clip-text text-transparent drop-shadow-lg'> <span className='text-black'>Student </span> Gallery</h2>
                                 <p className='text-[18px] text-[secondary] font-normal font-inter max-w-2xl mx-auto '>Real students, real projects, real results. Take a look at our practical training sessions and fieldwork</p>
                             </div>
                         </motion.div>
