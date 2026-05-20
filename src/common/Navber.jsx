@@ -47,7 +47,7 @@ const Navber = () => {
                                 height={50}
                             />
                             <h2 className='text-lg md:text-xl font-bold font-nunito bg-linear-to-r from-blue-600 to-teal-600 bg-clip-text text-transparent drop-shadow-lg'>
-                                Nextzen Academy
+                                Nextgen Academy
                             </h2>
                         </div>
                     </Link>

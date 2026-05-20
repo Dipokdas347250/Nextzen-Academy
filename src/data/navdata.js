@@ -23,12 +23,7 @@ const Navberdata = {
             title: "Gallery",
             url: "/gallery"
         },
-        {
-            id: 5,
-            title: "Testimonials",
-            url: "/testimonials"
-
-        },
+        
         {
             id: 6,
             title: "Contact",

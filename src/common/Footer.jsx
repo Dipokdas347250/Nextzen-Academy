@@ -20,7 +20,7 @@ const Footer = () => {
           {/* Brand */}
           <div>
             <h2 className="text-3xl font-nunito font-bold">
-              Nextzen <span className="text-[#6DFA18]">Academy</span>
+              Nextgen <span className="text-[#6DFA18]">Academy</span>
             </h2>
 
             <p className="text-gray-300 mt-5 leading-7 font-inter">
