@@ -93,11 +93,11 @@ export function StatisticsSection() {
               Our Achievements
             </span>
           </div>
-          <h2 className="text-4xl sm:text-5xl font-bold text-white mb-4">
+          <h2 className="text-[50px] sm:text-5xl font-bold text-white mb-4">
             Numbers That Speak <br />
             For Themselves
           </h2>
-          <p className="text-lg text-white/90 max-w-2xl mx-auto">
+          <p className="text-[20px] text-white/90 max-w-2xl mx-auto">
             Our commitment to excellence is reflected in the success of our students and the quality of our training
           </p>
         </motion.div>
@@ -163,10 +163,10 @@ export function StatisticsSection() {
         duration: 0.6,
         delay: 0.4
       }} className="text-center mt-16">
-          <p className="text-white/90 text-lg mb-6 font-inter">
+          <p className="text-white/90 text-[20px] mb-6 font-inter">
             Join hundreds of successful graduates who transformed their careers
           </p>
-          <button className="px-8 py-4 bg-white text-teal-600 font-semibold font-inter rounded-full shadow-lg hover:shadow-2xl hover:scale-105 transition-all duration-300">
+          <button className="px-8 py-4 bg-white text-[20px] text-teal-600 font-semibold font-inter rounded-full shadow-lg hover:shadow-2xl hover:scale-105 transition-all duration-300">
             Start Your Journey Today
           </button>
         </motion.div>

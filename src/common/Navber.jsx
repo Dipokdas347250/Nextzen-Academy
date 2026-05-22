@@ -67,10 +67,10 @@ const Navber = () => {
                             ))}
                         </ul>
 
-                        <button className="bg-primary text-white font-inter font-medium px-4 py-2 rounded-md hover:bg-tertiary transition-colors flex items-center gap-2 cursor-pointer">
+                        {/* <button className="bg-primary text-white font-inter font-medium px-4 py-2 rounded-md hover:bg-tertiary transition-colors flex items-center gap-2 cursor-pointer">
                             <FiMessageCircle size={20} />
                             Enroll Now
-                        </button>
+                        </button> */}
                     </div>
 
                     {/* Mobile Menu Button */}
@@ -115,12 +115,12 @@ const Navber = () => {
                         ))}
                     </ul>
 
-                    <div className="px-5 pb-5">
+                    {/* <div className="px-5 pb-5">
                         <button className="w-full bg-primary text-white font-inter font-medium px-4 py-3 rounded-md hover:bg-tertiary transition-colors flex items-center justify-center gap-2">
                             <FiMessageCircle size={20} />
                             Enroll Now
                         </button>
-                    </div>
+                    </div> */}
                 </div>
             </Contaoner>
         </nav>

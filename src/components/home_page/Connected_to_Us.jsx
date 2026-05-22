@@ -58,7 +58,7 @@ const Connected_to_Us = () => {
 
                                     <div className="flex justify-center">
                                         <img
-                                            src="https://www.creativeitinstitute.com/images/cit_partner/3_partner_logo_1663044423.png"
+                                            src="https://www.creativeitinstitute.com/images/cit_partner/6_partner_logo_1663044474.png"
                                             alt="3"
                                         />
                                     </div>

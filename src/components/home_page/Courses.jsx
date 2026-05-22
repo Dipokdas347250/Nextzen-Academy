@@ -62,7 +62,7 @@ const Courses = () => {
 
                         </div>
                         <h2 className='lg:text-[72px] text-[40px] font-nunito font-bold transition-colors  bg-linear-to-r from-primary to-tertiary bg-clip-text text-transparent drop-shadow-lg'>Comprehensive Courses</h2>
-                        <p className='text-[18px] text-[secondary] font-normal font-inter max-w-2xl mx-auto '>Industry-leading training programs designed to equip you with practical skills and knowledge for a successful career</p>
+                        <p className='text-[20px] text-[secondary] font-normal font-inter max-w-2xl mx-auto '>Industry-leading training programs designed to equip you with practical skills and knowledge for a successful career</p>
                     </div>
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 mt-10 ">
                         {
@@ -72,8 +72,8 @@ const Courses = () => {
                                         <course.icon />
                                     </div>
                                     <div>
-                                        <h3 className='text-[24px] font-bold text-primary font-inter'>{course.title}</h3>
-                                        <p className='text-[16px] text-[secondary] font-normal font-inter'>{course.description}</p>
+                                        <h3 className='text-[28px] font-bold text-primary font-inter'>{course.title}</h3>
+                                        <p className='text-[20px] text-[secondary] font-normal font-inter'>{course.description}</p>
                                     </div>
                                 </div>
                             ))
