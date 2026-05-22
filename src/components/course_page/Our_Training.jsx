@@ -79,12 +79,12 @@ const Our_Training = () => {
         <div className="">
           <div className="text-center mb-16">
             <p
-              className="text-teal-600 uppercase tracking-wider mb-3"
-              style={{ fontSize: "0.875rem", fontWeight: 600 }}
+              className="text-teal-600 text-[20px] font-semibold font-inter uppercase tracking-wider mb-3"
+             
             >
               Learn & Grow
             </p>
-            <h2 className="text-4xl md:text-5xl text-slate-900 mb-4">
+            <h2 className="lg:text-[72px] text-[40px] font-nunito font-bold transition-colors  bg-linear-to-r from-primary to-tertiary bg-clip-text text-transparent drop-shadow-lg">
               Our Training Programs
             </h2>
             <div className="w-20 h-1 bg-linear-to-r from-blue-500 via-teal-500 to-green-500 mx-auto"></div>
@@ -116,20 +116,20 @@ const Our_Training = () => {
                       <course.icon className="w-6 h-6 text-white" />
                     </div>
                     <div>
-                      <h3 className="text-xl text-slate-900">
+                      <h3 className="text-[26px] text-tertiary font-semibold font-inter">
                         {course.name}
                       </h3>
                     </div>
                   </div>
 
                   <div className="flex items-center gap-4 mb-4 text-sm text-slate-600">
-                    <span className="flex items-center gap-1">
+                    <span className="flex items-center gap-1 text-[16px] font-medium font-inter">
                       <Clock className="w-4 h-4" />
                       {course.duration}
                     </span>
                   </div>
 
-                  <p className="text-slate-600 mb-6 leading-relaxed">
+                  <p className="text-[20px] text-black font-normal font-inter mb-6 leading-relaxed">
                     {course.description}
                   </p>
 
