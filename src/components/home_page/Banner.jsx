@@ -18,7 +18,7 @@ const Banner = () => {
 
                 <h2 className='text-[16px] text-[tertiary] font-normal font-inter '>Premium Technical Training Institute</h2>
               </div>
-              <h1 className='lg:text-[72px] text-[40px] font-nunito font-bold transition-colors  bg-linear-to-r from-primary to-tertiary bg-clip-text text-transparent drop-shadow-lg'>Nextzen Academy</h1>
+              <h1 className='lg:text-[72px] text-[40px] font-nunito font-bold transition-colors  bg-linear-to-r from-primary to-tertiary bg-clip-text text-transparent drop-shadow-lg'>Nextgen Academy</h1>
               <h3 className='lg:text-[32px] text-[20px] font-inter font-medium text-tertiary '>Solar & Electrical SystemInstallation and Maintenance</h3>
               <p className='lg:text-[18px] text-[16px] text-black font-inter font-normal lg:mt-7 mt-5'>Transform your future with hands-on practical training in solar and electrical systems. Work on real projects, learn from expert instructors, and unlock career opportunities in the booming renewable energy industry.</p>
               <div className="">

@@ -23,7 +23,7 @@ const ContactForm = () => {
 
             <h2 className="text-4xl md:text-5xl font-bold font-inter text-[#0B4F7B] mt-3 leading-tight">
               Get In Touch With
-              <span className="text-[#39B54A]"> Nextzen Academy</span>
+              <span className="text-[#39B54A]"> Nextgen Academy</span>
             </h2>
 
             <p className="text-gray-600 mt-5 text-lg font-inter">
