@@ -1,10 +1,12 @@
+
 import React from 'react'
-import About from '../../components/about_page/About'
+import About_Us from '../../components/about_page/About_Us'
+
 
 const About_banner = () => {
   return (
    <>
-   <About/>
+   <About_Us/>
    </>
   )
 }

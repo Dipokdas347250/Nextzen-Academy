@@ -10,7 +10,7 @@ const Navberdata = {
         {
             id: 2,
             title: "About",
-            url: "/About_banner"
+            url: "/About"
         },
         {
             id: 3,
