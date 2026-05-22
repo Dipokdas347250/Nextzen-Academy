@@ -23,10 +23,10 @@ const Solar_Electrical = () => {
    
                  {/* Content */}
                  <div className="p-12">
-                   <span className="inline-block bg-green-500 text-white px-4 py-2 rounded-lg text-sm mb-4">
+                   <span className="inline-block bg-green-500 text-white px-4 py-2 rounded-lg text-[20px] font-normal font-inter mb-4">
                      Featured Course
                    </span>
-                   <h2 className="text-3xl md:text-4xl text-white mb-6">
+                   <h2 className="lg:text-[72px] text-[40px] font-nunito font-bold transition-colors  bg-linear-to-r from-white to-secondary bg-clip-text text-transparent drop-shadow-lg leading-[120%] mb-6">
                      Solar Electrical System Installation
                    </h2>
    
@@ -35,10 +35,10 @@ const Solar_Electrical = () => {
                      <div className="flex items-start gap-3">
                        <CheckCircle2 className="w-6 h-6 text-green-400 shrink-0 mt-1" />
                        <div>
-                         <h4 className="text-white mb-1">
+                         <h4 className="text-[24px] text-white font-semibold font-inter mb-1">
                            6 Months Professional Training
                          </h4>
-                         <p className="text-slate-400 text-sm">
+                         <p className="text-slate-400 text-[20px] font-inter font-normal mb-0 leading-relaxed">
                            Comprehensive hands-on learning program
                          </p>
                        </div>
@@ -46,10 +46,10 @@ const Solar_Electrical = () => {
                      <div className="flex items-start gap-3">
                        <CheckCircle2 className="w-6 h-6 text-green-400 shrink-0 mt-1" />
                        <div>
-                         <h4 className="text-white mb-1">
+                         <h4 className="text-[24px] text-white font-semibold font-inter mb-1">
                            Industry Certification
                          </h4>
-                         <p className="text-slate-400 text-sm">
+                         <p className="text-slate-400 text-[20px] font-inter font-normal mb-0 leading-relaxed">
                            Recognized by technical education boards
                          </p>
                        </div>
@@ -57,10 +57,10 @@ const Solar_Electrical = () => {
                      <div className="flex items-start gap-3">
                        <CheckCircle2 className="w-6 h-6 text-green-400 shrink-0 mt-1" />
                        <div>
-                         <h4 className="text-white mb-1">
+                         <h4 className="text-[24px] text-white font-semibold font-inter mb-1">
                            Practical Project Experience
                          </h4>
-                         <p className="text-slate-400 text-sm">
+                         <p className="text-slate-400 text-[20px] font-inter font-normal mb-0 leading-relaxed">
                            Real-world solar installation projects
                          </p>
                        </div>
@@ -68,10 +68,10 @@ const Solar_Electrical = () => {
                      <div className="flex items-start gap-3">
                        <CheckCircle2 className="w-6 h-6 text-green-400 shrink-0 mt-1" />
                        <div>
-                         <h4 className="text-white mb-1">
+                         <h4 className="text-[24px] text-white font-semibold font-inter mb-1">
                            Job Placement Support
                          </h4>
-                         <p className="text-slate-400 text-sm">
+                         <p className="text-slate-400 text-[20px] font-inter font-normal mb-0 leading-relaxed">
                            Career guidance and industry connections
                          </p>
                        </div>
