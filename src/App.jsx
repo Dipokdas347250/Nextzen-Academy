@@ -3,13 +3,15 @@ import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } 
 import RootLayout from './layout/RootLayout'
 import Home from './pages/home/Home'
 import About from './pages/about/About'
+import Course from './pages/Courses/Course'
 
 
 const router = createBrowserRouter(createRoutesFromElements(
   <Route element={<RootLayout />}>
     <Route index element={<Home />}></Route>
     <Route path='/About' element={<About/>}></Route>
-   
+    <Route path='/course' element={<Course/>}></Route>
+
 
 
   </Route>

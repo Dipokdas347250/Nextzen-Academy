@@ -15,7 +15,7 @@ const Navberdata = {
         {
             id: 3,
             title: "Courses",
-            url: "/courses"
+            url: "/course"
 
         },
         {

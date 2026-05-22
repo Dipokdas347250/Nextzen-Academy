@@ -1,11 +1,16 @@
 import React from 'react'
 import { Target, Lightbulb, Users, Award, Zap, GraduationCap } from 'lucide-react';
+import Container from '../../container/Container';
+
 
 
 const Mission = () => {
   return (
     <>
     <section>
+    <Container>
+
+   
          <div className="relative  bg-white py-20 px-4 overflow-hidden">
 
       {/* Abstract Background Gradients */}
@@ -144,6 +149,7 @@ const Mission = () => {
 
       </div>
     </div>
+     </Container>
     </section>
     </>
   )
