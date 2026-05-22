@@ -75,8 +75,8 @@ const Our_Training = () => {
    <>
    <section>
     <Container>
-         <section className="py-20 px-4 bg-gradient-to-b from-white to-slate-50">
-        <div className="max-w-7xl mx-auto">
+         <section className="py-20 px-4 bg-linear-to-b from-white to-slate-50">
+        <div className="">
           <div className="text-center mb-16">
             <p
               className="text-teal-600 uppercase tracking-wider mb-3"
@@ -87,7 +87,7 @@ const Our_Training = () => {
             <h2 className="text-4xl md:text-5xl text-slate-900 mb-4">
               Our Training Programs
             </h2>
-            <div className="w-20 h-1 bg-gradient-to-r from-blue-500 via-teal-500 to-green-500 mx-auto"></div>
+            <div className="w-20 h-1 bg-linear-to-r from-blue-500 via-teal-500 to-green-500 mx-auto"></div>
           </div>
 
           {/* Course Cards Grid */}
@@ -104,7 +104,7 @@ const Our_Training = () => {
                     alt={course.name}
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                   />
-                  <div className="absolute top-4 right-4 bg-gradient-to-r from-blue-500 to-green-500 text-white px-4 py-2 rounded-lg text-sm">
+                  <div className="absolute top-4 right-4 bg-linear-to-r from-blue-500 to-green-500 text-white px-4 py-2 rounded-lg text-sm">
                     {course.type}
                   </div>
                 </div>
@@ -112,7 +112,7 @@ const Our_Training = () => {
                 {/* Course Content */}
                 <div className="p-6">
                   <div className="flex items-center gap-3 mb-3">
-                    <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-teal-500 rounded-xl flex items-center justify-center">
+                    <div className="w-12 h-12 bg-linear-to-br from-blue-500 to-teal-500 rounded-xl flex items-center justify-center">
                       <course.icon className="w-6 h-6 text-white" />
                     </div>
                     <div>
@@ -133,7 +133,7 @@ const Our_Training = () => {
                     {course.description}
                   </p>
 
-                  <button className="w-full bg-gradient-to-r from-blue-500 to-green-500 text-white py-3 rounded-xl hover:shadow-lg hover:scale-105 transition-all duration-300">
+                  <button className="w-full bg-linear-to-r from-blue-500 to-green-500 text-white py-3 rounded-xl hover:shadow-lg hover:scale-105 transition-all duration-300">
                     Enroll Now
                   </button>
                 </div>
