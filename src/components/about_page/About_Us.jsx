@@ -20,7 +20,7 @@ const About_Us = () => {
                     </span>
 
                     <h2 className="lg:text-[72px] text-[40px] font-nunito font-bold transition-colors  bg-linear-to-r from-primary to-tertiary bg-clip-text text-transparent drop-shadow-lg mt-3">
-                        Building Future Skilled Professionals
+                        <span className='text-black'>Building</span> Future Skilled Professionals
                     </h2>
 
                     <p className=" w-[80%] mx-auto mt-5 leading-8 text-[20px] text-tertiary font-inter">
@@ -39,10 +39,10 @@ const About_Us = () => {
 
                     <div className="bg-[#F8FAFC] p-8 rounded-[30px] text-center hover:shadow-lg duration-300">
                         <MdElectricalServices className="text-5xl text-cyan-500 mx-auto mb-4" />
-                        <h4 className="text-xl font-bold mb-2">
+                        <h4 className="text-[30px] text-primary font-inter font-bold mb-2">
                             Electrical Training
                         </h4>
-                        <p className="text-gray-600">
+                        <p className="text-[20px] text-tertiary font-normal font-inter">
                             Hands-on practical electrical installation
                             and maintenance training.
                         </p>
@@ -50,10 +50,10 @@ const About_Us = () => {
 
                     <div className="bg-[#F8FAFC] p-8 rounded-[30px] text-center hover:shadow-lg duration-300">
                         <GiSolarPower className="text-5xl text-green-500 mx-auto mb-4" />
-                        <h4 className="text-xl font-bold mb-2">
+                        <h4 className="text-[30px] text-primary font-inter font-bold mb-2">
                             Solar Technology
                         </h4>
-                        <p className="text-gray-600">
+                        <p className="text-[20px] text-tertiary font-normal font-inter">
                             Professional solar electrical system
                             installation and maintenance training.
                         </p>
@@ -62,11 +62,11 @@ const About_Us = () => {
                     <div className="bg-[#F8FAFC] p-8 rounded-[30px] text-center hover:shadow-lg duration-300">
                         <FaChalkboardTeacher className="text-5xl text-blue-500 mx-auto mb-4" />
 
-                        <h4 className="text-xl font-bold mb-2">
+                        <h4 className="text-[30px] text-primary font-inter font-bold mb-2">
                             Expert Instructors
                         </h4>
 
-                        <p className="text-gray-600">
+                        <p className="text-[20px] text-tertiary font-normal font-inter">
                             Learn from experienced trainers with practical
                             industry knowledge and real-world expertise.
                         </p>

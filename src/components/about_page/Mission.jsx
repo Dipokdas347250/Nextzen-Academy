@@ -15,15 +15,16 @@ const Mission = () => {
       <div className="relative max-w-7xl mx-auto">
 
         {/* Section Header */}
+        
         <div className="text-center mb-6">
-          <p className="text-teal-600 uppercase tracking-wider mb-3" style={{ fontSize: '0.875rem', fontWeight: 600, letterSpacing: '0.1em' }}>
+          <p className="uppercase tracking-wider py-3 px-4 bg-[#D9FAEB]  rounded-full border border-green-500 text-[16px] text-[tertiary] font-normal font-inter w-[20%] mx-auto mb-3" style={{ fontSize: '0.875rem', fontWeight: 600, letterSpacing: '0.1em' }}>
             Our Purpose
           </p>
-          <h1 className="text-4xl md:text-5xl lg:text-6xl text-slate-900 mb-4">
+          <h1 className="lg:text-[72px] text-[40px] font-nunito font-bold transition-colors  bg-linear-to-r from-primary to-tertiary bg-clip-text text-transparent drop-shadow-lg mb-4">
             Mission & Vision
           </h1>
           <div className="w-20 h-1 bg-linear-to-r from-blue-500 via-teal-500 to-green-500 mx-auto mb-6"></div>
-          <p className="text-slate-600 max-w-3xl mx-auto leading-relaxed" style={{ fontSize: '1.125rem' }}>
+          <p className=" max-w-3xl mx-auto leading-relaxed text-[20px] text-tertiary font-normal font-inter" >
             Empowering future professionals with practical skills, technical education, and career-focused learning opportunities.
           </p>
         </div>
@@ -44,10 +45,10 @@ const Mission = () => {
               </div>
 
               {/* Content */}
-              <h2 className="text-3xl text-slate-900 mb-4">
+              <h2 className=" text-[30px] text-primary font-inter font-bold mb-4">
                 Our Mission
               </h2>
-              <p className="text-slate-600 leading-relaxed" style={{ fontSize: '1.0625rem' }}>
+              <p className="text-[20px] text-tertiary font-normal font-inter leading-relaxed">
                 To provide high-quality practical training in electrical installation, maintenance, solar technology, and technical education through industry-focused learning, hands-on experience, and career guidance.
               </p>
             </div>
@@ -66,10 +67,10 @@ const Mission = () => {
               </div>
 
               {/* Content */}
-              <h2 className="text-3xl text-slate-900 mb-4">
+              <h2 className=" text-[30px] text-primary font-inter font-bold mb-4">
                 Our Vision
               </h2>
-              <p className="text-slate-600 leading-relaxed" style={{ fontSize: '1.0625rem' }}>
+              <p className="text-[20px] text-tertiary font-normal font-inter leading-relaxed" >
                 To become a leading technical training academy in Bangladesh by creating skilled professionals who contribute to innovation, employment, and sustainable energy development.
               </p>
             </div>
@@ -91,10 +92,10 @@ const Mission = () => {
               <div className="w-16 h-16 bg-linear-to-br from-blue-500 to-teal-500 rounded-2xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 group-hover:rotate-6 transition-all duration-300 shadow-lg">
                 <Users className="w-8 h-8 text-white" />
               </div>
-              <h3 className="text-teal-400 mb-2" style={{ fontSize: '1.125rem' }}>
+              <h3 className=" lg:text-[24px] text-[20px] text-primary font-inter font-bold mb-2">
                 Skilled Students
               </h3>
-              <p className="text-slate-400 text-sm">
+              <p className="text-[18px] text-white font-normal font-inter">
                 Building Excellence
               </p>
             </div>
@@ -104,10 +105,10 @@ const Mission = () => {
               <div className="w-16 h-16 bg-linear-to-br from-teal-500 to-green-500 rounded-2xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 group-hover:rotate-6 transition-all duration-300 shadow-lg">
                 <Zap className="w-8 h-8 text-white" />
               </div>
-              <h3 className="text-green-400 mb-2" style={{ fontSize: '1.125rem' }}>
+              <h3 className="lg:text-[24px] text-[20px] text-primary font-inter font-bold mb-2">
                 Hands-on Training
               </h3>
-              <p className="text-slate-400 text-sm">
+              <p className="text-[18px] text-white font-normal font-inter">
                 Practical Experience
               </p>
             </div>
@@ -117,10 +118,10 @@ const Mission = () => {
               <div className="w-16 h-16 bg-linear-to-br from-green-500 to-blue-500 rounded-2xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 group-hover:rotate-6 transition-all duration-300 shadow-lg">
                 <Award className="w-8 h-8 text-white" />
               </div>
-              <h3 className="text-blue-400 mb-2" style={{ fontSize: '1.125rem' }}>
+              <h3 className=" lg:text-[24px] text-[20px] text-primary font-inter font-bold mb-2">
                 Career Support
               </h3>
-              <p className="text-slate-400 text-sm">
+              <p className="text-[18px] text-white font-normal font-inter">
                 Professional Growth
               </p>
             </div>
@@ -130,10 +131,10 @@ const Mission = () => {
               <div className="w-16 h-16 bg-linear-to-br from-blue-500 to-green-500 rounded-2xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 group-hover:rotate-6 transition-all duration-300 shadow-lg">
                 <GraduationCap className="w-8 h-8 text-white" />
               </div>
-              <h3 className="text-teal-400 mb-2" style={{ fontSize: '1.125rem' }}>
+              <h3 className=" lg:text-[24px] text-[20px] text-primary font-inter font-bold mb-2">
                 Industry-Focused
               </h3>
-              <p className="text-slate-400 text-sm">
+              <p className="text-[18px] text-white font-normal font-inter">
                 Real-World Learning
               </p>
             </div>
