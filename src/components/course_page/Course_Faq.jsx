@@ -39,11 +39,11 @@ const Course_Faq = () => {
           
           {/* Heading */}
           <div className="text-center mb-16">
-            <p className="text-teal-600 uppercase tracking-[3px] font-semibold mb-3">
+            <p className="text-teal-600 text-[20px] font-semibold font-inter uppercase tracking-wider mb-3">
               Got Questions?
             </p>
 
-            <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-4">
+            <h2 className="lg:text-[72px] text-[40px] font-nunito font-bold transition-colors  bg-linear-to-r from-primary to-tertiary bg-clip-text text-transparent drop-shadow-lg mb-4">
               Frequently Asked Questions
             </h2>
 
@@ -61,7 +61,7 @@ const Course_Faq = () => {
                   onClick={() => toggleFaq(idx)}
                   className="w-full px-8 py-6 flex items-center justify-between text-left"
                 >
-                  <h3 className="text-lg md:text-xl font-medium text-slate-900">
+                  <h3 className="text-[24px] font-inter font-medium text-tertiary">
                     {faq.question}
                   </h3>
 
@@ -80,7 +80,7 @@ const Course_Faq = () => {
                   }`}
                 >
                   <div className="overflow-hidden">
-                    <p className="px-8 pb-6 text-slate-600 leading-8">
+                    <p className="px-8 pb-6 text-[20px] text-primary font-inter font-normal leading-8">
                       {faq.answer}
                     </p>
                   </div>

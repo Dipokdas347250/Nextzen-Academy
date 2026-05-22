@@ -14,10 +14,10 @@ const Our_Achievements = () => {
 
         <div className="relative max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl text-white mb-4">
+            <h2 className="lg:text-[72px] text-[40px] font-nunito font-bold transition-colors  bg-linear-to-r from-white to-secondary bg-clip-text text-transparent drop-shadow-lg leading-[120%] mb-4">
               Our Achievements
             </h2>
-            <p className="text-slate-300 text-lg">
+            <p className="text-slate-300 text-[20px] font-inter font-normal mb-0 leading-relaxed">
               Building skilled professionals for Bangladesh's
               technical industry
             </p>
@@ -50,10 +50,10 @@ const Our_Achievements = () => {
                 <div className="w-20 h-20 bg-linear-to-br from-blue-500 to-green-500 rounded-2xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 group-hover:rotate-6 transition-all duration-300">
                   <stat.icon className="w-10 h-10 text-white" />
                 </div>
-                <h3 className="text-4xl md:text-5xl text-white mb-2">
+                <h3 className=" text-[50px] font-nunito font-bold text-white mb-2">
                   {stat.number}
                 </h3>
-                <p className="text-slate-300 text-lg">
+                <p className="text-slate-300 text-[20px] font-inter font-normal mb-0 leading-relaxed">
                   {stat.label}
                 </p>
               </div>
