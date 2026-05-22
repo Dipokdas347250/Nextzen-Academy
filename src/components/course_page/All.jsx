@@ -19,7 +19,7 @@ import {
 import { useState } from "react";
 
 export default function Courses() {
-//   const [openFaq, setOpenFaq] = useState<number | null>(null);
+  // const [openFaq, setOpenFaq] = useState<number | null>(null);
 
   const courses = [
     {
@@ -367,7 +367,7 @@ export default function Courses() {
       </section>
 
       {/* FAQ Section */}
-      {/* <section className="py-20 px-4 bg-white">
+      <section className="py-20 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-16">
             <p
@@ -414,7 +414,7 @@ export default function Courses() {
             ))}
           </div>
         </div>
-      </section> */}
+      </section>
 
       {/* Final CTA Section */}
       <section className="py-24 px-4 bg-gradient-to-br from-blue-600 via-teal-600 to-green-600 relative overflow-hidden">

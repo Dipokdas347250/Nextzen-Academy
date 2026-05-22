@@ -4,6 +4,7 @@ import Course_banner from '../../components/course_page/Course_banner'
 import Our_Training from '../../components/course_page/Our_Training'
 import Solar_Electrical from '../../components/course_page/Solar_Electrical'
 import Our_Achievements from '../../components/course_page/Our_Achievements'
+import Course_Faq from '../../components/course_page/Course_Faq'
 
 const Course = () => {
   return (
@@ -12,6 +13,7 @@ const Course = () => {
     <Our_Training/>
     <Solar_Electrical/>
     <Our_Achievements/>
+    <Course_Faq/>
     {/* <Courses/> */}
     </>
   )
