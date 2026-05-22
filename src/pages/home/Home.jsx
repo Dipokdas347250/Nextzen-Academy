@@ -6,6 +6,7 @@ import Student_Gallery_section from '../../components/home_page/Student_Gallery_
 import  {StatisticsSection}  from '../../components/home_page/StatisticsSection'
 import  {TestimonialsSection}  from '../../components/home_page/TestimonialsSection'
 import ContactForm from '../../components/home_page/Contact_us'
+import Connected_to_Us from '../../components/home_page/Connected_to_Us'
 
 
 const Home = () => {
@@ -19,6 +20,7 @@ const Home = () => {
     <Student_Gallery_section/>
     <StatisticsSection/>
     <TestimonialsSection/>
+    <Connected_to_Us/>
     <ContactForm/>
     
     </main>

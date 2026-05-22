@@ -31,7 +31,7 @@ const Why_Choose = () => {
     return (
         <>
 
-            <section className="py-20 bg-linear-to-br from-blue-50 via-white to-teal-50 relative overflow-hidden">
+            <section className="lg:py-20 py-10 bg-linear-to-br from-blue-50 via-white to-teal-50 relative overflow-hidden">
                 <Contaoner>
                     {/* Decorative Elements */}
                     <div className="absolute top-20 left-0 w-72 h-72 bg-blue-200 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob" />
