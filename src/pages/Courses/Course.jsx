@@ -5,6 +5,7 @@ import Our_Training from '../../components/course_page/Our_Training'
 import Solar_Electrical from '../../components/course_page/Solar_Electrical'
 import Our_Achievements from '../../components/course_page/Our_Achievements'
 import Course_Faq from '../../components/course_page/Course_Faq'
+import Start_Career from '../../components/course_page/Start_Career'
 
 const Course = () => {
   return (
@@ -14,6 +15,7 @@ const Course = () => {
     <Solar_Electrical/>
     <Our_Achievements/>
     <Course_Faq/>
+    <Start_Career/>
     {/* <Courses/> */}
     </>
   )
