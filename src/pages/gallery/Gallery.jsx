@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import Gallery_banner from '../../components/gallery_page/Gallery_banner'
 import NextGenGallery from '../../components/gallery_page/NextGenGallery';
+import { BlueTestimonialSection } from '../../components/gallery_page/BlueTestimonialSection';
 // import GalleryPage from '../../components/gallery_page/GalleryPage';
 
 
@@ -12,6 +13,7 @@ const Gallery = () => {
     <Gallery_banner/>
     {/* <GalleryPage/> */}
     <NextGenGallery/>
+    <BlueTestimonialSection/>
     
     </>
   )
