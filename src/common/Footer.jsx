@@ -65,19 +65,19 @@ const Footer = () => {
               </li>
 
               <li>
-                <Link href="/">About Us</Link>
+                <Link href="/About">About Us</Link>
               </li>
 
               <li>
-                <Link href="/">Courses</Link>
+                <Link href="/Courses">Courses</Link>
               </li>
 
               <li>
-                <Link href="/">Gallery</Link>
+                <Link href="/Gallery">Gallery</Link>
               </li>
 
               <li>
-                <Link href="/">Contact</Link>
+                <Link href="/Contact">Contact</Link>
               </li>
             </ul>
           </div>
@@ -107,7 +107,7 @@ const Footer = () => {
 
               <div className="flex gap-3">
                 <MdCall className="text-[#6DFA18] text-xl mt-1" />
-                <p>+880 1XXXXXXXXX</p>
+                <p>+880 1332104015</p>
               </div>
 
               <div className="flex gap-3">

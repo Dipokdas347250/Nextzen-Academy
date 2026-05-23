@@ -41,7 +41,7 @@ const ContactForm = () => {
                   <h4 className="font-semibold text-[#0B4F7B]">
                     Call Us
                   </h4>
-                  <p className="text-gray-600">+880 1XXXXXXXXX</p>
+                  <p className="text-gray-600">+880 1332104015</p>
                 </div>
               </div>
 
@@ -53,7 +53,7 @@ const ContactForm = () => {
                   <h4 className="font-semibold text-[#0B4F7B]">
                     WhatsApp
                   </h4>
-                  <p className="text-gray-600">+880 1XXXXXXXXX</p>
+                  <p className="text-gray-600">+880 1332104015</p>
                 </div>
               </div>
 
