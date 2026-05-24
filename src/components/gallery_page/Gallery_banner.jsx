@@ -133,6 +133,7 @@ const Gallery_banner = () => {
           <div className="inline-flex items-center gap-2 px-6 py-3 bg-white/60 backdrop-blur-lg rounded-full border border-[#0066B3]/20 shadow-lg">
             <Award className="w-5 h-5 text-[#0066B3]" />
             <span className="text-[#0B4D91] font-medium">Premium Technical Training Institute</span>
+            <span className="text-[#0B4D91] font-medium">Premium Technical Training Institute</span>
           </div>
         </motion.div>
 
