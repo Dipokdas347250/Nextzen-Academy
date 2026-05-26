@@ -55,7 +55,7 @@ const ContactForm = () => {
 
         const res =
           await axios.post(
-            "http://localhost:5000/api/contact",
+            "https://nextgen-server-one.vercel.app/api/contact",
             formData
           );
 
