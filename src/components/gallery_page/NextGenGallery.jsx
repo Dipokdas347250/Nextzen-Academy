@@ -115,12 +115,6 @@ export default function NextGenGallery() {
               >
                 Close
               </button>
-              <button
-                onClick={() => setLightbox(null)}
-                className="bg-slate-100 hover:bg-slate-200 text-slate-600 font-semibold text-sm px-4 py-2 rounded-xl transition-colors cursor-pointer"
-              >
-                Close
-              </button>
             </div>
           </div>
         </div>
