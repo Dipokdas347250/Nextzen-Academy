@@ -7,7 +7,7 @@ const Gallery_banner = () => {
   return (
     <>
    
-             <section className="relative lg:py-30 py-10 mt-10 flex items-center justify-center overflow-hidden bg-linear-to-br from-[#EAF8FF] via-white to-[#EAF8FF]">
+             <section className="relative lg:py-30 py-20 mt-10 flex items-center justify-center overflow-hidden bg-linear-to-br from-[#EAF8FF] via-white to-[#EAF8FF]">
         <Container>
       {/* Wave Background */}
       <div className="absolute inset-0">
@@ -137,7 +137,7 @@ const Gallery_banner = () => {
         </motion.div>
 
         <motion.h1
-          className="lg:text-[72px] text-[40px] font-nunito font-bold transition-colors  bg-linear-to-r from-primary to-tertiary bg-clip-text text-transparent drop-shadow-lg"
+          className="lg:text-[72px] text-[30px] font-nunito font-bold transition-colors  bg-linear-to-r from-primary to-tertiary bg-clip-text text-transparent drop-shadow-lg"
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
