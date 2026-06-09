@@ -55,7 +55,7 @@ const ContactForm = () => {
 
         const res =
           await axios.post(
-            "http://localhost:5000/api/contact",
+            "https://nextgen-server-trop.onrender.com/contact",
             formData
           );
 
