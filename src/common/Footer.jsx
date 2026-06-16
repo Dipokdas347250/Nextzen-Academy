@@ -20,7 +20,7 @@ const Footer = () => {
           {/* Brand */}
           <div>
             <h2 className="text-3xl font-nunito font-bold">
-              Nextgen <span className="text-[#6DFA18]">Academy</span>
+              NextGen <span className="text-[#6DFA18]">Academy</span>
             </h2>
 
             <p className="text-gray-300 mt-5 leading-7 font-inter">
@@ -112,7 +112,7 @@ const Footer = () => {
 
               <div className="flex gap-3">
                 <MdEmail className="text-[#6DFA18] text-xl mt-1" />
-                <p>nextzenacademy@gmail.com</p>
+                <p>nextgenacademy@gmail.com</p>
               </div>
 
               <div className="flex gap-3">
@@ -130,7 +130,7 @@ const Footer = () => {
           </p>
 
           <p className="mt-4 md:mt-0">
-            Developed by Nextzen Academy
+            Developed by Nextgen Academy
           </p>
         </div>
       </div>
