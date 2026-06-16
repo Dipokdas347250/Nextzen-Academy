@@ -42,10 +42,11 @@ const ContactForm = () => {
         !formData.name ||
         !formData.email ||
         !formData.phone ||
+        !formData.subject ||
         !formData.message
       ) {
         alert(
-          "সব field পূরণ করুন"
+          "Fill in all fields."
         );
         return;
       }
@@ -55,7 +56,7 @@ const ContactForm = () => {
 
         const res =
           await axios.post(
-            "http://localhost:5000/api/contact",
+            "https://nextgen-2-e3jk.onrender.com/api/contact",
             formData
           );
 
@@ -67,6 +68,7 @@ const ContactForm = () => {
           name: "",
           email: "",
           phone: "",
+          subject: "",
           message: "",
         });
       } catch (error) {
@@ -152,8 +154,7 @@ const ContactForm = () => {
               </h3>
 
               <form onSubmit={handleSubmit} className="space-y-5">
-                <input
-                  type="text"
+                <input type="text"
                   name="name"
                   placeholder="Your Name"
                   value={
@@ -165,8 +166,7 @@ const ContactForm = () => {
                   className="w-full p-4 rounded-xl border border-gray-300 outline-none focus:ring-2 focus:ring-[#0397BE]"
                 />
 
-                <input
-                  type="email"
+                <input type="email"
                   name="email"
                   placeholder="Your Email"
                   value={
@@ -178,12 +178,22 @@ const ContactForm = () => {
                   className="w-full p-4 rounded-xl border border-gray-300 outline-none focus:ring-2 focus:ring-[#0397BE]"
                 />
 
-                <input
-                  type="text"
+                <input  type="text"
                   name="phone"
                   placeholder="Phone Number"
                   value={
                     formData.phone
+                  }
+                  onChange={
+                    handleChange
+                  }
+                  className="w-full p-4 rounded-xl border border-gray-300 outline-none focus:ring-2 focus:ring-[#0397BE]"
+                />
+                <input  type="text"
+                  name="subject"
+                  placeholder="Subject"
+                  value={
+                    formData.subject
                   }
                   onChange={
                     handleChange
