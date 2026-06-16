@@ -126,11 +126,11 @@ const Footer = () => {
         {/* Bottom */}
         <div className="flex flex-col md:flex-row justify-between items-center pt-8 text-gray-300 text-sm">
           <p>
-            © 2026 Nextzen Academy. All Rights Reserved.
+            © 2026 NextGen Academy. All Rights Reserved.
           </p>
 
           <p className="mt-4 md:mt-0">
-            Developed by Nextgen Academy
+            Developed by NextGen Academy
           </p>
         </div>
       </div>

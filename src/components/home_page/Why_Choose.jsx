@@ -43,7 +43,7 @@ const Why_Choose = () => {
                             <h2 className='text-[16px] text-[tertiary] font-normal font-inter '>What Makes Us Different</h2>
 
                         </div>
-                        <h2 className='lg:text-[72px] text-[36px] font-nunito font-bold transition-colors  bg-linear-to-r from-primary to-tertiary bg-clip-text text-transparent drop-shadow-lg'> <span className='text-black'>Why Choose</span> Nextgen Academy?</h2>
+                        <h2 className='lg:text-[72px] text-[36px] font-nunito font-bold transition-colors  bg-linear-to-r from-primary to-tertiary bg-clip-text text-transparent drop-shadow-lg'> <span className='text-black'>Why Choose</span> NextGen Academy?</h2>
                         <p className='text-[20px] text-[secondary] font-normal font-inter max-w-2xl mx-auto '>Industry-leading training programs designed to equip you with practical skills and knowledge for a successful career</p>
                     </div>
 
