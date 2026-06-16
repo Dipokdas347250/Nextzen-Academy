@@ -93,7 +93,7 @@ const Navber = () => {
                     ref={menuRef}
                     className={`lg:hidden absolute top-full left-0 w-full bg-white shadow-md transition-all duration-300 overflow-hidden ${
                         showMenu
-                            ? 'max-h-[500px] opacity-100'
+                            ? 'max-h-125 opacity-100'
                             : 'max-h-0 opacity-0'
                     }`}
                 >
